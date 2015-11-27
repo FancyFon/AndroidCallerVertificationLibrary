@@ -4,7 +4,28 @@
 
     <groupId>com.fancyfon.mobile.android.verification</groupId>
     <artifactId>Android_Caller_Verification_Library</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2-SNAPHOT</version>
+    <packaging>jar</packaging>
+    <name>Android Caller Verification Library</name>
+    <description>Provides api for caller verification in IPC communication.</description>
+    <url>http://github.com/FancyFon/AndroidCallerVertificationLibrary</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+
+    <developers>
+        <developer>
+            <name>Piotr Soróbka</name>
+            <email>piotr.sorobka@fancyfon.com</email>
+            <organization>FancyFon</organization>
+            <organizationUrl>http://www.fancyfon.com/</organizationUrl>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
@@ -61,7 +82,9 @@
     </organization>
 
     <scm>
+        <connection>scm:git:git@github.comFancyFon/AndroidCallerVertificationLibrary.git</connection>
         <developerConnection>scm:git:git@github.com:FancyFon/AndroidCallerVertificationLibrary.git</developerConnection>
+        <url>git@github.com:FancyFon/AndroidCallerVertificationLibrary.git</url>
         <tag>HEAD</tag>
     </scm>
 </project>
