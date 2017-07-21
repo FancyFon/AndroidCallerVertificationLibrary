@@ -5,5 +5,7 @@ package com.fancyfon.mobile.android.verification;
  */
 public interface CallerVerificator {
 
-    public boolean isCallerPermitted( int callingId);
+    boolean isCallerPermitted(int callingId);
+
+    void isCallerPermitted(int callingId, CallerVerificatiorCallback callerVerificatiorCallback);
 }
